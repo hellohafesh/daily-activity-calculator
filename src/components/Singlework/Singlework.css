@@ -1,0 +1,39 @@
+.detailsDIv img {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.singlework {
+    height: 500px;
+    width: 300px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.info {
+    padding: 10px;
+}
+
+.detailsDIv h3 {
+    margin-bottom: 0px;
+    margin-top: 4px;
+}
+
+.detailsDIv p {
+    margin-top: 3px;
+}
+
+
+
+.button {
+    width: 100%;
+    height: 40px;
+    background-color: tomato;
+    border: none;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: brown;
+}
