@@ -15,10 +15,10 @@ const Activity = () => {
             .then(data => setactivity(data))
     }, []);
     const handleCart = (activity) => {
-        console.log(activity);
+        // console.log(activity);
         const newActive = [...active, activity];
         setActive(newActive);
-        console.log(newActive);
+        // console.log(newActive);
     }
     return (
         <div>

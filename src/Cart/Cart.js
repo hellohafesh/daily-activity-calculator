@@ -1,7 +1,8 @@
-import React from 'react';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import './Cart.css';
+import { useEffect, useState } from 'react';
 
 
 const Cart = ({ active }) => {
@@ -10,8 +11,15 @@ const Cart = ({ active }) => {
         totaltime = totaltime + activitys.timerequrid;
         console.log(totaltime)
     }
+
+
+
+
+
+
     return (
-        <div id=''>
+
+        <div div id='' >
             <div className='doneactive cart'>
                 <div className='user'>
                     <img src="https://scontent.fdac96-1.fna.fbcdn.net/v/t1.6435-9/133694607_1547988878922362_9006881551894245567_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_eui2=AeF7ErlmVTYhAVni9H9-IBMQHvP3ohkVihwe8_eiGRWKHFGLHjQB9SsNFuRdXubTHrrSADdivIVJsFMANFGQZk79&_nc_ohc=yiGkOoZwrKAAX9l65jx&_nc_ht=scontent.fdac96-1.fna&oh=00_AT8AcAddaIDoigUKPD_wihFfiyKETF3KEDfP2lWSm02yzw&oe=635B608E" alt="" />
@@ -43,24 +51,25 @@ const Cart = ({ active }) => {
                 <div className='btnDiv'>
                     <h2>Add A Break</h2>
                     <div className='break'>
-                        <button><span>05</span>m</button>
-                        <button><span>10</span>m</button>
-                        <button><span>15</span>m</button>
-                        <button><span>20</span>m</button>
-                        <button><span>30</span>m</button>
+                        <button value="05"><span>05</span>m</button>
+                        <button value="10"><span>10</span>m</button>
+                        <button value="15"><span>15</span>m</button>
+                        <button value="20"><span>20</span>m</button>
+                        <button svalue="30"><span>30</span>m</button>
 
                     </div>
+
 
                 </div>
                 <div className="taks">
                     <h5> Total Task: {active.length} </h5>
-                    <h4>Task Sechidule</h4>
+                    <h4>Task Schedule</h4>
                 </div>
                 <div className='task'>
                     <h3> Task Time : {totaltime} <small>minutes</small></h3>
                 </div>
                 <div className='task'>
-                    <h3> Break Time :</h3>
+                    <h3> Break Time : { }</h3>
                 </div>
                 <button id='button'>
                     Activity Complete
