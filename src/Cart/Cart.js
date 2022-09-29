@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import './Cart.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 
 const Cart = ({ active }) => {
@@ -12,7 +12,11 @@ const Cart = ({ active }) => {
         console.log(totaltime)
     }
 
-
+    let [breakTime, setBreakTime] = useState(0);
+    let breakTimetotal = (value) => {
+        let sum = value;
+        setBreakTime(sum);
+    }
 
 
 
@@ -51,11 +55,12 @@ const Cart = ({ active }) => {
                 <div className='btnDiv'>
                     <h2>Add A Break</h2>
                     <div className='break'>
-                        <button value="05"><span>05</span>m</button>
-                        <button value="10"><span>10</span>m</button>
-                        <button value="15"><span>15</span>m</button>
-                        <button value="20"><span>20</span>m</button>
-                        <button svalue="30"><span>30</span>m</button>
+                        <button onClick={() => { breakTimetotal(5) }}><span>05</span>m</button>
+                        <button onClick={() => { breakTimetotal(10) }}><span>10</span>m</button>
+                        <button onClick={() => { breakTimetotal(15) }}><span>15</span>m</button>
+                        <button onClick={() => { breakTimetotal(20) }}><span>20</span>m</button>
+                        <button onClick={() => { breakTimetotal(30) }}><span>30</span>m</button>
+
 
                     </div>
 
@@ -69,7 +74,7 @@ const Cart = ({ active }) => {
                     <h3> Task Time : {totaltime} <small>minutes</small></h3>
                 </div>
                 <div className='task'>
-                    <h3> Break Time : { }</h3>
+                    <h3> Break Time : {breakTime}</h3>
                 </div>
                 <button id='button'>
                     Activity Complete
