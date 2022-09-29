@@ -33,6 +33,12 @@
 
 }
 
+.cart {
+    position: sticky;
+    top: 0;
+
+}
+
 .myinfo {
     display: flex;
 
@@ -45,13 +51,13 @@
 }
 
 .myinfo div {
-    padding: 10px;
+    padding: 5px;
     justify-content: center;
     text-align: center;
 }
 
 .btnDiv {
-    margin-top: 50px;
+    margin-top: 30px;
     margin: 10px;
     text-align: center;
 }
@@ -80,20 +86,21 @@
 }
 
 .task {
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
     border: 2px solid black;
     border-radius: 20px;
     background-color: white;
 }
 
+
 #button {
     width: 90%;
-    height: 40px;
+    height: 35px;
     background-color: tomato;
     border: none;
     border-radius: 10px;
-    margin: 20px;
+    margin: 15px;
 }
 
 #button:hover {

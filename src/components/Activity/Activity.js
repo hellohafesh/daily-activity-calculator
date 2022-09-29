@@ -20,25 +20,30 @@ const Activity = () => {
         setActive(newActive);
     }
     return (
-        <div className='activity-container' >
+        <div>
 
-            <h1> <FontAwesomeIcon icon={faListCheck}></FontAwesomeIcon> Active Your Life</h1>
+            <div>
+                <h1> <FontAwesomeIcon icon={faListCheck}></FontAwesomeIcon> Active Your Life</h1>
 
-            <h3>Select Your Todays Task</h3>
-
-            <div className='card'>
-
-
-
-                {
-                    activity.map(activitys => <Singlework handle={handleCart} key={activitys.id} activitys={activitys}  ></Singlework>
-
-                    )
-                }
+                <h3>Select Your Todays Task</h3>
             </div>
-            <Cart active={active}></Cart>
+            <div className='activity-container' >
 
-        </div >
+
+
+                <div className='card'>
+
+
+
+                    {
+                        activity.map(activitys => <Singlework handle={handleCart} key={activitys.id} activitys={activitys}  ></Singlework>
+
+                        )
+                    }
+                </div>
+                <Cart active={active}></Cart>
+
+            </div ></div>
     );
 };
 
