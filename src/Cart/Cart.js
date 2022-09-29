@@ -5,6 +5,11 @@ import './Cart.css';
 
 
 const Cart = ({ active }) => {
+    let totaltime = 0;
+    for (const activitys of active) {
+        totaltime = totaltime + activitys.timerequrid;
+        console.log(totaltime)
+    }
     return (
         <div id=''>
             <div className='doneactive cart'>
@@ -21,7 +26,7 @@ const Cart = ({ active }) => {
                     <div className='myinfo'>
                         <div>
                             <p><b>Age</b></p>
-                            <p><small>20 Years</small></p>
+                            <p><small><b>20</b> Years</small></p>
                         </div>
                         <div>
                             <p><b>Semester</b></p>
@@ -52,7 +57,7 @@ const Cart = ({ active }) => {
                     <h4>Task Sechidule</h4>
                 </div>
                 <div className='task'>
-                    <h3> Task Time :</h3>
+                    <h3> Task Time : {totaltime} <small>minutes</small></h3>
                 </div>
                 <div className='task'>
                     <h3> Break Time :</h3>

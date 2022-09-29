@@ -18,6 +18,7 @@ const Activity = () => {
         console.log(activity);
         const newActive = [...active, activity];
         setActive(newActive);
+        console.log(newActive);
     }
     return (
         <div>
