@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import './Cart.css';
 import { useState } from 'react';
+import React from 'react';
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Cart = ({ active }) => {
@@ -14,10 +18,12 @@ const Cart = ({ active }) => {
 
     let [breakTime, setBreakTime] = useState(0);
     let breakTimetotal = (value) => {
-        let sum = value;
-        setBreakTime(sum);
+        let initialtime = value;
+        setBreakTime(initialtime);
     }
 
+
+    const notify = () => toast("Wow Great! You Have Done Your All Tasks");
 
 
 
@@ -76,9 +82,20 @@ const Cart = ({ active }) => {
                 <div className='task'>
                     <h3> Break Time : {breakTime}</h3>
                 </div>
-                <button id='button'>
+                <button onClick={notify} id='button'>
                     Activity Complete
                 </button>
+                <ToastContainer
+                    position="top-center"
+                    autoClose={5000}
+                    hideProgressBar={false}
+                    newestOnTop={false}
+                    closeOnClick
+                    rtl={false}
+                    pauseOnFocusLoss
+                    draggable
+                    pauseOnHover
+                />
             </div>
         </div>
     );

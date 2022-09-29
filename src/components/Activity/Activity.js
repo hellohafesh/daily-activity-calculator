@@ -5,6 +5,7 @@ import Singlework from '../Singlework/Singlework';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faListCheck } from '@fortawesome/free-solid-svg-icons'
 import Cart from '../../Cart/Cart';
+import Answer from '../Answer/Answer';
 
 const Activity = () => {
     const [activity, setactivity] = useState([]);
@@ -44,7 +45,9 @@ const Activity = () => {
                 </div>
                 <Cart active={active}></Cart>
 
-            </div ></div>
+            </div >
+            <Answer></Answer>
+        </div>
     );
 };
 
