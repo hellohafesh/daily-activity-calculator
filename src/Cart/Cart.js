@@ -80,7 +80,7 @@ const Cart = ({ active }) => {
                     <h3> Task Time : {totaltime} <small>minutes</small></h3>
                 </div>
                 <div className='task'>
-                    <h3> Break Time : {breakTime}</h3>
+                    <h3> Break Time : {breakTime} <small>minutes</small></h3>
                 </div>
                 <button onClick={notify} id='button'>
                     Activity Complete

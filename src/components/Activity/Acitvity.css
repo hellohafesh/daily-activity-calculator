@@ -5,6 +5,10 @@
 
 }
 
+.headertext {
+    color: #383856;
+}
+
 @media screen and (max-width:900px) {
     .activity-container {
         grid-template-columns: repeat(2, 1fr);

@@ -24,7 +24,7 @@ const Activity = () => {
     return (
         <div>
 
-            <div>
+            <div className='headertext'>
                 <h1> <FontAwesomeIcon icon={faListCheck}></FontAwesomeIcon> Active Your Life</h1>
 
                 <h3>Select Your Todays Task</h3>
@@ -33,20 +33,24 @@ const Activity = () => {
 
 
 
-                <div className='card'>
+                <div>
+                    <div className='card'>
 
 
 
-                    {
-                        activity.map(activitys => <Singlework handle={handleCart} key={activitys.id} activitys={activitys}  ></Singlework>
+                        {
+                            activity.map(activitys => <Singlework handle={handleCart} key={activitys.id} activitys={activitys}  ></Singlework>
 
-                        )
-                    }
+                            )
+                        }
+                    </div>
+                    <Answer></Answer>
                 </div>
+
                 <Cart active={active}></Cart>
 
             </div >
-            <Answer></Answer>
+
         </div>
     );
 };

@@ -16,6 +16,7 @@ const Singlework = (props) => {
 
                 <button onClick={() => { props.handle(props.activitys) }} className='button'>Add To List</button>
             </div>
+
         </div>
     );
 };

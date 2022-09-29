@@ -1,6 +1,6 @@
 .user {
     display: flex;
-    background-color: aqua;
+    background-color: rgb(249, 236, 234);
 }
 
 .user img {
@@ -13,23 +13,23 @@
 }
 
 .totalinfo {
-    background-color: aqua;
+    background-color: rgb(249, 236, 234);
     margin-right: 5px;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 
 .user {
-    background-color: aqua;
+    background-color: rgb(249, 236, 234);
     margin-right: 5px;
 }
 
 .myinfo div {
-    background-color: aqua;
+    background-color: rgb(249, 236, 234);
 }
 
 .doneactive {
-    background-color: aqua;
+    background-color: rgb(249, 236, 234);
 
 }
 
@@ -45,7 +45,7 @@
 }
 
 .totalinfo div {
-    background-color: white;
+    background-color: rgb(249, 236, 234);
     margin-left: 8px;
     border-radius: 20px
 }
@@ -67,13 +67,14 @@
 .break button {
     padding: 10px;
     margin: 5px;
-    background-color: tomato;
+    background-color: #383856;
+    color: white;
     border: none;
     border-radius: 70px;
 }
 
 .break button:hover {
-    background-color: brown;
+    background-color: #5c0de2;
 }
 
 .break {
@@ -88,7 +89,7 @@
 .task {
     padding: 5px;
     margin: 5px;
-    border: 2px solid black;
+    border: 2px solid #383856;
     border-radius: 20px;
     background-color: white;
 }
@@ -97,12 +98,13 @@
 #button {
     width: 90%;
     height: 35px;
-    background-color: tomato;
+    background-color: #383856;
+    color: white;
     border: none;
     border-radius: 10px;
     margin: 15px;
 }
 
 #button:hover {
-    background-color: brown;
+    background-color: #5c0de2;
 }
