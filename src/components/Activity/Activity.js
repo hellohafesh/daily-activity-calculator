@@ -1,13 +1,9 @@
 
-// import Doactivity from '../Doactivity/Doactivity';
-// import Doneactive from '../Doneactive/Doneactive';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import './Acitvity.css'
 import React, { useEffect, useState } from 'react';
 import Singlework from '../Singlework/Singlework';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import Allactivity from '../Allactivity/Allactivity';
 import { faListCheck } from '@fortawesome/free-solid-svg-icons'
 
 const Activity = () => {
