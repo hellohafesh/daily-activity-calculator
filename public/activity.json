@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1231,
+        "sactivity": "Exersise",
+        "img": "https://media.istockphoto.com/photos/shot-of-a-muscular-young-man-exercising-with-battle-ropes-outdoors-picture-id1368073636?b=1&k=20&m=1368073636&s=170667a&w=0&h=NSYny0HtpnHHlvB71KJRzAk6d0XUjnZPQMAwEXoQsts=",
+        "info": "Regular physical activity can improve your muscle strength and boost your endurance. Exercise delivers oxygen and nutrients to your tissues and helps your cardiovascular system work more efficiently. And when your heart and lung health improve, you have more energy to tackle daily chores.",
+        "time": "06.00am-07.00am ",
+        "timerequrid": 60
+    },
+    {
+        "id": 1232,
+        "sactivity": "Breakfast",
+        "img": "https://images.unsplash.com/photo-1530868156061-e5e8a5450c51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGJyZWFrZmFzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "info": "Breakfast is often called 'the most important meal of the day', and for good reason. As the name suggests, breakfast breaks the overnight fasting period. It replenishes your supply of glucose to boost your energy levels and alertness, while also providing other essential nutrients required for good health",
+        "time": "07.00am-07.30am",
+        "timerequrid": 30
+    },
+    {
+        "id": 1233,
+        "sactivity": "Study",
+        "img": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHN0dWR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "info": "Studying iis not just important exceptional educational development,but also builds personality skilled.Having good study skills can improve your brain and your confidence,competence and self-esteem.As well as helps reduce stress and anxiety around deadlines and exams.",
+        "time": "07.30am-09.00am",
+        "timerequrid": 90
+    },
+    {
+        "id": 1234,
+        "sactivity": "Class",
+        "img": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xhc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "info": "Going to class is the first step in engaging in your education by interacting with the instructor and other students.Clarify learning objectives and your expectations. This is probably the most important objective. Cleary laying out expectations starts to orient students.It is important to determine a reasonable scope for your course, that includes ... Teaching at its best: A research-based resource for college instructors.",
+        "time": "10.00am-01.00pm",
+        "timerequrid": 180
+    },
+    {
+        "id": 1235,
+        "sactivity": "Bath",
+        "img": "https://media.istockphoto.com/photos/woman-enjoying-a-candlelight-bath-picture-id1366830155?b=1&k=20&m=1366830155&s=170667a&w=0&h=IQDyuFTeyMKFbjmiNwuGOm0r-RROgklmIP672Rm41pY=",
+        "info": "The benefits of taking a bath are numerous and have an excellent impact on health. Science has proven the ways it heals the body, mind and mood.One benefit is cleanliness. Bathing cleans your skin, helping you avoid irritation, inflammation and sores caused by dead skin cell ",
+        "time": "01.30pm-02.00pm",
+        "timerequrid": 30
+    },
+    {
+        "id": 1236,
+        "sactivity": "Launch",
+        "img": "https://media.istockphoto.com/photos/fried-fish-fillets-side-dish-olives-sauce-and-edible-oil-picture-id636035624?k=20&m=636035624&s=612x612&w=0&h=SxGnqtb-dngTREWcABhSGciqmgus5gZ-3ozy85myU2M=",
+        "info": "Eliminate disease & imbalances in the body with a whole-person approach & functional medicine. We're on a mission to simplify healthcare!Discover what the power of food and nutrition can do for your employees, members, patients, and customers",
+        "time": "02.00pm-02.30pm",
+        "timerequrid": 30
+    },
+    {
+        "id": 1237,
+        "sactivity": "Rest & Sleep",
+        "img": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2xlZXB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "info": "During sleep, your body is working to support healthy brain function and maintain your physical health. In children and teens, sleep also helps support growth and development. Getting inadequate sleep over time can raise your risk for chronic (long-term) health problems",
+        "time": "02.30pm-04.00pm",
+        "timerequrid": 90
+    },
+    {
+        "id": 1238,
+        "sactivity": "Playing",
+        "img": "https://images.unsplash.com/photo-1525026198548-4baa812f1183?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGxheWluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "info": "Play improves the cognitive, physical, social, and emotional well-being of children and young people. Through play, children learn about the world and themselves. They also learn skills they need for study, work and relationships such as: confidence.",
+        "time": "04.00pm-05.30pm",
+        "timerequrid": 90
+    },
+    {
+        "id": 1239,
+        "sactivity": "Snack's Time",
+        "img": "https://images.unsplash.com/photo-1628191078376-f31a36c9f2cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNuYWNrJ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "info": "Even though snacking has developed a bad image, snacks can be an important part of your diet. They can provide energy in the middle of the day or when you exercise. A healthy snack between meals can also decrease your hunger and keep you from overeating at meal time.",
+        "time": "05.30pm-06.00pm",
+        "timerequrid": 30
+    },
+    {
+        "id": 1210,
+        "sactivity": "Study",
+        "img": "https://i.pinimg.com/736x/34/4e/9a/344e9a228ca73e2872ce3d5b507ed369--books-and-coffee-coffee-mugs.jpg",
+        "info": "Studying is not just important for educational development, but also builds personal skills. Having good study skills can improve your confidence, competence, and self-esteem. As well as helps reduce stress and anxiety around deadlines and exams.",
+        "time": "06.00pm-10.00pm",
+        "timerequrid": 180
+    },
+    {
+        "id": 11,
+        "sactivity": "Dinner",
+        "img": "https://images.unsplash.com/photo-1547573854-74d2a71d0826?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGRpbm5lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "info": "Dinner is an important meal,but you can experiment with range of great Having a healthy dinner is link ed to good sleep, good choices at breakfast and lunch, lower inflammation, greater resilience to stress, better digestion, stable blood sugar and lower anxiety.",
+        "time": "10.00pm-10.30pm",
+        "timerequrid": 30
+    },
+    {
+        "id": 1212,
+        "sactivity": "Social Media",
+        "img": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c29jaWFsJTIwbWVkaWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "info": "Why is social media important?Social mediais important because it allows youto reach,nurture,and engage with your target audienceno matter their location. When a business can use social media to connect with its audience, it can use social media to generate brand awareness, leads, sales, and revenue.",
+        "time": "10.30pm-11.00pm",
+        "timerequrid": 30
+    }
+]
